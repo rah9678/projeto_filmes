@@ -1,0 +1,317 @@
+
+
+
+
+/* Define o estilo padrão para o corpo da página */
+body {
+    padding-top: 0%;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Define o estilo para o menu de navegação */
+header {
+    background-image: url(estrela.jpg);
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+main {
+    padding-top: 75px; /* Adicione um espaçamento superior de 50 pixels */
+}
+
+main {
+	margin-top: 100px;
+}
+/* adicionei uma class */
+.intro{
+    padding-top: 75px; /* Adicione um espaçamento superior de 50 pixels */
+    font-size: 26px;
+    width: 100%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.intro{
+	margin-top:100px ;
+}/* fim da class*/
+
+main section {
+    top: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px; /* Adiciona um espaço entre os vídeos e os parágrafos */
+}
+
+main iframe {
+    width: 50%; /* Define a largura dos vídeos como 50% */
+}
+
+main p {
+    font-size: 26px;
+    width: 50%; /* Define a largura dos parágrafos como 50% */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Define o estilo dos textos no header */
+.menu a:hover {
+    border-bottom: 2px solid blue; /* Adiciona uma borda inferior de 2 pixels sólida azul quando o mouse está sobre um link do menu */
+}
+.criticas a:hover{
+    border-bottom: 2px solid blue; /* Adiciona uma borda inferior de 2 pixels sólida azul quando o mouse está sobre um link do menu */
+
+}
+main p{
+    color: #ccc;
+}
+section{
+    margin-top:5%;
+    
+}
+#filme1{
+    margin-top:0 px;
+}
+main h2{
+    color: #7700ff;
+}
+p {
+    color:rgb(25, 5, 5);
+  }
+  h1{
+      color:white;
+  }
+  h2{
+      color:white;
+  }
+  
+/* Define o estilo para o menu de navegação */
+.menu {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    z-index: 1;
+}
+
+/* Define o estilo quando um link no menu é passado o mouse por cima */
+.menu a:hover {
+    border-bottom: 2px solid blue;
+}
+
+/* Define o estilo para a lista de itens do menu */
+ul {
+    list-style-type: none;
+    
+}
+
+/* Define o estilo dos itens da lista do menu */
+li {
+    display: inline;
+    margin: 0 10px;
+}
+
+/* Define o estilo dos links do menu */
+a {
+    
+    text-decoration: none;
+    color: #d7bfcd;
+    font-size: 30px;
+}
+.criticas {
+    margin-top: 130px; /* Remova o espaçamento superior para o menu de críticas */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+
+.criticas a {
+    
+    text-decoration:none;
+    color: blue;
+    font-size: 26;
+}
+
+/* Define o estilo para o formulário de contato (inicialmente oculto) */
+.criticas ul{
+    align-items: center;
+    top: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+/* Define o estilo para o contêiner de vídeo responsivo */
+.video-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+/* Define o estilo para o iframe de vídeo dentro do contêiner */
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Define o estilo para a seção principal da página (se houver) */
+
+/* Define o estilo para o rodapé da página */
+footer {
+    background-image: url(estrela.jpg);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Adicione estilos para o formulário */
+.styled-form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-image: url(estrela.jpg);
+    background-color: #e5d2d2;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(77, 13, 13, 0.1);
+}
+
+/* Adicione estilos para os rótulos */
+.styled-form label {
+    color: #7700ff;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    font-size: x-large;
+}
+
+/* Adicione estilos para os campos de entrada */
+.styled-form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Adicione estilos para o botão de envio */
+.styled-form input[type="submit"] {
+    background-color: #d9e2eb;
+    color: #7700ff;
+    border: none;
+    cursor: pointer;
+    font-size: 26px;
+    padding: 12px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.styled-form input[type="submit"]:hover {
+    background-color: purple;
+    color: #07010e;
+}
+.search-container {
+    float: right;
+  }
+  
+  #searchInput {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  .search-icon {
+    font-size: 24px; /* Tamanho do ícone */
+    color: #e11818; /* Cor do ícone */
+    margin-left: 8px; /* Espaçamento à esquerda do ícone (ajuste conforme necessário) */
+}
+
+.destaque {
+    color: #7700ff; /* Cor vermelha (substitua pelo código de cor desejado) */
+    font-weight: bold; /* Negrito */
+}
+.creator img {
+    border-radius: 50%; /* Torna a imagem redonda */
+    width: 100px; /* Define a largura da imagem */
+    height: 100px; /* Define a altura da imagem */
+    object-fit: cover; /* Garante que a imagem cubra completamente a área designada */
+}
+
+.sobrenos {
+    
+    color: black;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 30px;
+    font-size: x-large;
+    margin-top: 130px; /* Remova o espaçamento superior para o menu de críticas */
+}
+#creator{
+    margin-bottom: 50%;
+}
+h1{
+	color:white
+}
+p{
+	color:white
+}
+.head1{
+    background-image: url(estrela.jpg);	
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+.lanca{
+
+ background-color:black;	
+ color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+img {
+    width: 40%; /* Isso faz com que todas as imagens tenham largura de 100% do contêiner pai */
+    max-width: 50%; /* Evita que as imagens ultrapassem seu tamanho original */
+    height: auto; /* Mantém a proporção original da imagem ao redimensionar a largura */
+    border: 2px solid #dddddd; /* Adiciona uma borda de 2px sólida de cor cinza claro */
+    /* Adicione mais propriedades de estilo conforme necessário */
+}
+
+	
+.movie-list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.lanca {
+    padding-top: 5%;
+    font-size: 26px;
+    width: 30%; /* Define a largura dos parágrafos como 50% */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.form{
+padding-top: 10%;
+font-size: 22px;
+
+}
